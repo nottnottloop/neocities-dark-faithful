@@ -1,0 +1,161 @@
+/* ==UserStyle==
+@name         neocities-dark-faithful
+@author       nottnottloop
+@namespace    github.com/nottnottloop
+@version      1.0.0
+@description  Dark theme for Neocities which maintains the look and feel of the original site. Literally just color changes.
+@license      unlicense
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://neocities.org") {
+::-webkit-scrollbar {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #313537 !important;
+}
+
+body {
+    background: black;
+}
+
+.page {
+    background-color: black;
+}
+
+.website-Gallery.int-Gall li {
+    background-color: black;
+    border: 0;
+}
+
+.site-info, .site-info a {
+    color: white !important;
+}
+
+.img-Holder {
+    border: 0;
+}
+
+.browse-page .input-Area {
+    background-color: black !important;
+    color: white !important;
+}
+
+.input-Select {
+    color: white;
+}
+
+.input-Select option {
+    background: black;
+    color: white;
+}
+
+.select-Container {
+    background-color: black;
+}
+
+.header-Outro {
+    background: #192024;
+}
+
+.header-Nav {
+    background: #213135;
+    border-bottom: 0;
+}
+
+.footer-Outro {
+    background: black;
+    border-top: 0;
+}
+
+.content.single-Col.misc-page, .single-Col.misc-page.footer-Content {
+    background: black;
+}
+
+.news-item .user {
+    color: #e93250 !important;
+}
+
+.news-item .title .text {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, li, p {
+    color: white;
+}
+
+.section {
+    background: black;
+}
+
+.plan-chart td {
+    background: black !important;
+    color: white;
+}
+
+.section.plans.welcome .plan-overview > * {
+    background: black !important;
+    background-color: black !important;
+}
+
+.post-comment {
+    background-color: black;
+}
+
+.news-feed > *, .news-feed > * > * > *,
+.site-profile > *, .site-profile > * > * > * {
+    background: black !important;
+    color: white !important;
+}
+
+.news-item .files {
+    background: black;
+}
+
+.large-portrait {
+    border: 0;
+}
+
+.content-Base {
+    background: black;
+}
+
+.files.list-view .list .file {
+    background: #1a1818;
+    color: white;
+}
+
+.files.list-view .list .file:nth-child(even) {
+    background: #171616;
+}
+
+.files.list-view .list .file .title {
+    color: white;
+}
+
+.files {
+    background: black;
+}
+
+.modal-body, .modal-footer {
+    background: black;
+}
+
+.modal-body p {
+    margin: 0;
+}
+
+.section.previews {
+    background: black;
+}
+
+.section.previews p {
+    color: white;
+}
+
+.welcome {
+    color: black;
+}
+}
